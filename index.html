@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Calculator
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="display">
+            <div class="text">0</div>
+        </div>
+<br>
+        <div class="keys">
+            <button class="key" onclick="input('0');">0</button>
+            <button class="key" onclick="input('1');">1</button>
+            <button class="key" onclick="input('2');">2</button>
+            <button class="key op" onclick="input('+');">+</button>
+            <button class="key" onclick="input('3');">3</button>
+            <button class="key" onclick="input('4');">4</button>
+            <button class="key" onclick="input('5');">5</button>
+            <button class="key op" onclick="input('-');">-</button>
+            <button class="key" onclick="input('6');">6</button>
+            <button class="key" onclick="input('7');">7</button>
+            <button class="key" onclick="input('8');">8</button>
+            <button class="key op" onclick="input('x');">x</button>
+            <button class="key" onclick="input('9');">9</button>
+            <button class="key" onclick="input('.');">.</button>
+            <button class="key hide" style="background-color: transparent;"></button>
+            <button class="key op" onclick="input('/');">/</button>
+        </div>
+<br>
+        <button class="reloader key" onclick="displayStr=''; displayStr='0'; displayWindow();">AC</button>
+        <button class="key" onclick="lineCutter();">✂️</button>
+        <button class="res key" onclick="calculator();">=</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
