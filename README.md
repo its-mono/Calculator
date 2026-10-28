@@ -22,5 +22,5 @@ This project prioritizes foundational web standards:
 Since this project is currently hosted locally, you can run it easily:
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git clone https://github.com/its-mono/Calculator.git
 2. Simply open index.html file on your browser
